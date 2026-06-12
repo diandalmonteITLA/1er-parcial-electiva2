@@ -1,6 +1,6 @@
 body{
     min-height: 100vh;
-    background-image: linear-gradient(#fff 1%, #faf4d4 50%, #fff 100%);
+    background-image: linear-gradient(#fff 1%, #fffce4 50%, #fff 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,15 +9,15 @@ body{
 
 #card{
     padding: 1.5vw;
-    background-image: linear-gradient(to bottom right, #efffee 40%, #bfef9a 80%, #93e180 100%);
+    background-image: linear-gradient(to bottom right, #ffefee 40%, #f4aaaa 80%, #ee8888 100%);
     width: 50vw;
-    aspect-ratio: 3 / 2;
+    aspect-ratio: 3.5 / 2;
     container-type: inline-size;
     display: flex;
     border-radius: 5%;
     box-sizing: border-box;
     align-items: center;
-    box-shadow: 0 0 20px 1px #0003;
+    box-shadow: 0 0 20px 1px #0002;
 }
 
 #card-info{
@@ -40,5 +40,5 @@ h2{
 }
 
 h1, h2{
-    margin: 2vw;
+    margin: 1vw;
 }
