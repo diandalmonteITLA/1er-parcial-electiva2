@@ -11,7 +11,7 @@ body{
     padding: 1.5vw;
     background-image: linear-gradient(to bottom right, #ffefee 40%, #f4aaaa 80%, #ee8888 100%);
     width: 50vw;
-    aspect-ratio: 3.5 / 2;
+    aspect-ratio: 3 / 2;
     container-type: inline-size;
     display: flex;
     border-radius: 5%;
