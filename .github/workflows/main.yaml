@@ -1,0 +1,24 @@
+name: Despliegue automatico a Surge
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar codigo fuente
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Desplegar en Surge.sh
+        run: |
+          npm install -g surge
+          surge . elect2-primer-parcial-dian-delgado.surge.sh --token ${{ secrets.SURGE_TOKEN }}
